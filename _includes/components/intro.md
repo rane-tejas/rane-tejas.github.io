@@ -1,3 +1,3 @@
-Friday Theme is a theme for Jekyll using Bootstrap 4.4 designed to build a great personal web site with a portfolio, blog and project documentation. It is compatible with GitHub Pages. It supports all the Bootstrap components, it has blogs with tags, it has syntax highlighting and it has SVG icons. It is customisable with SCSS by simply changing the default boostrap variables.
+I am a fourth-year undergraduate student at [Birla Institute of Technology and Science (BITS) - Pilani, K. K. Birla Goa Campus](https://www.bits-pilani.ac.in/goa/), majoring in Mechanical Engineering.
 
-It is maintained by Simon Freytag on [GitHub](https://github.com/sfreytag/friday-theme) and it was built originally for [Simon's own portfolio](http://www.freytag.org.uk).
+I am currently working with [Dr. Shishir Kolathaya](https://shishirny.github.io/) on Mechanisms and Control Systems Design for Quadrupedal Walking Robots at the [Robert Bosch Centre for Cyber-Physical Systems, IISc Bangalore](https://cps.iisc.ac.in/).

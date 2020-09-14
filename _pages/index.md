@@ -2,29 +2,59 @@
 layout: defaults/page
 permalink: index.html
 narrow: true
-title: Welcome to Friday Theme
+title: Hello!
 ---
 
-## What is it?
+## I'm Tejas Rane.
 
 {% include components/intro.md %}
 
-[Here's the full feature list and some quick examples of what it can do.]({{ site.baseurl}}{% link _pages/about.md %})
+Follow this [link]({{ site.baseurl}}{% link _pages/about.md %}) to read more about me.
 
-## How to use it
+### Areas of Research Interest
 
-This web site is the documentation for the theme and also provides examples of how you can use and modify it. TIt is built using Friday Theme directly from the [GitHub repo](https://github.com/sfreytag/friday-theme) and published to GitHub pages.
+- Modular Robotics
+- Legged Robotics
+- Robotic Manipulators
+- Reinforcement Learning
+- Bio-inspired Robotics
+- Mechanism Designing
+- Mechanical Manufacturing
 
-[The documentation]({{ site.baseurl }}{% link list/projects.md %}) covers the basics of installing and using it, and is an example of how you could write documentation about your own projects.
+Visit the [Projects & Articles]({{ site.baseurl }}{% link list/posts.html %}) tab to read more about the projects that I have contributed in, as well as some of the articles I have written thus far. 
 
-[The blog]({{ site.baseurl }}{% link list/posts.html %}) has a bunch of tips about how to use Friday Theme. These show how the blog works, including the tags. There's the three most-recent posts below included below.
+Some of the projects that I am currently working on are listed below.
+
+### Current Projects
 
 <hr />
-
-### Recent Posts
-
 {% for post in site.posts limit:3 %}
 {% include components/post-card.html %}
 {% endfor %}
 
+<hr />
 
+### Contact me
+
+Feel free to contact or DM me on the following platforms- 
+
+<p class="d-flex align-items-center">
+    <span class="icon grey mr-2" markdown="0">
+        {% include entypo/mail.svg %}
+    </span>
+    <a href="mailto:f20170918@goa.bits-pilani.ac.in">f20170918@goa.bits-pilani.ac.in</a>
+</p>
+
+<p class="d-flex align-items-center">
+    <span class="icon grey mr-2" markdown="0">
+        {% include entypo/twitter.svg %}
+    </span>
+    <a href="https://www.twitter.com/desi_irodov">@desi_irodov</a>
+</p>
+
+<p class="d-flex align-items-center">
+    <span class="icon grey mr-2" markdown="0">
+        {% include entypo/linkedin.svg %}
+    </span>
+    <a href="https://www.linkedin.com/in/tejas-rane-359590149">Connect on LinkedIn</a>
+</p>

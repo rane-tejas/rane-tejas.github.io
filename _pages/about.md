@@ -2,83 +2,133 @@
 layout: defaults/page
 permalink: about.html
 narrow: true
-title: More info about Friday Theme
+title: About Me
 images:
   - https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5b1016b885e7438c4633109d77368d4d&auto=format&fit=crop&w=1651&q=80
   - https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=468a8c18f5d811cf03c654b653b5089e&auto=format&fit=crop&w=1650&q=80
   - https://images.unsplash.com/photo-1504626835342-6b01071d182e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=975855d515c9d56352ee3bfe74287f2b&auto=format&fit=crop&w=1651&q=80
 ---
 
-## What is it?
+## Biography
 
 {% include components/intro.md %}
 
-## Full Feature List
+I have contributed majorly in numerous projects across the numerous facets of Robotics. But I am primarily interested in the fields of Modular Robotics and Bio-inspired Robotics. With the advancements in the fields of Mechatronics and Artificial Intelligence, many institutes have created robotic platforms which mimic living beings closely. On integrating this with Modularity, the result is a fascinating system whose abilities can be altered to suit the demands of the environment. Such systems can operate seamlessly without any boundaries whatsoever. They can also perform collaborative tasks with human beings and enhance our efficiency. These are the types of systems that I wish to work on and advance further.
 
-- Installation
-  - Designed for Jekyll 3.8
-  - Compatible with GitHub Pages
-- Configuration
-  - Useful data files to quickly generate the profile sidebar and site navigation
-  - Easy to configure, minimal options, sensible defaults
-- Styling
-  - Styled with Bootstrap, proven to work cross-platform
-  - Minimal additional SCSS to get in the way
-  - Entirely customisable by tweaking the Boostrap SCSS variables
-- Layout
-  - 2 column layout
-  - Context-sensitive sidebars for blogs, documentation pages and normal content
-  - Narrow/wide page options
-  - Responsive layout built in
-  - Lots of helpful includes and components to build out your site
-- JavaScript and Components
-  - jQuery and Bootstrap JS included
-  - Use all the Bootstrap components
-- Other goodies
-  - Entypo SVG icons included
-  - Syntax highlighting for code fragments using Rougify for over 100 different languages
-- Blog
-  - A collection layout to build a blog with full support for tagging
-  - Interactive tag filtering for the blog
-- Projects
-  - A layout to list your projects, with a documentation-like layout for each project
-  - Table of contents generation for documentation pages
-- Permalinks
-  - Permalinks using baseurl throughout for deployment under a subdir or on GitHub pages
-  - Permalinks using .html throughout for deployment to environments not using default directory indexes
+Being interested in designing mechanisms and thinking of efficient ways to manufacture them, I joined the Mechanical Engineering program at BITS Pilani, Goa Campus in August, 2017. From the very beginning, I have been an integral part of the technical clubs on campus, like the Electronics and Robotics Club (link) and the Aerodynamics Club (link). I worked on a variety of projects with these clubs, to finally find my interests in Bio-inspired Robotics and Biomimetic Systems. Working on projects with professors and my fellow colleagues gave me a lot of hands-on experience. It also introduced me to other aspects of Robotics like Control Systems, Software Development, Reinforcement Learning, and basic Electronic Systems. 
 
-## Examples
+As of now, I have extensive experience working with CAD/CAM software like SolidWorks and Fusion 360, and with programming languages like MATLAB and Python. In my free time, I work on implementation of Reinforcement Learning algorithms and building custom environments. I am also proficient with equipment like 3D Printers and Laser Cutters.
 
-Here's some quick examples of what it can do.
+Apart from learning about new technologies, I like cycling and traveling to new places. I am a huge Formula 1 fan, and I also enjoy gaming as a pass time.
 
-### Code Highlighting
+<hr />
 
-{% highlight javascript %}
-var modulePattern = (function() {
-    // your module code goes here
-    var sum = 0 ;
+## Professional Experience
 
-    return {
-        add:function() {
-            sum = sum + 1;
-            return sum;
-        },
-        reset:function() {
-            return sum = 0;
-        }
-    }
-}());
-{% endhighlight %}
-
-### Bootstrap Components
-
-Here's a CSS component, it's an alert box with the info color:
-
-<div class="alert alert-info">
-    A simple info alert!
+<div class="card mb-4" style="width: 100;">
+    <div class="card-body">
+        <h4 class="card-title mb-2">
+             Robert Bosch Centre for Cyber-Physical Systems, IISc Bangalore 
+        </h4>
+        <h6 class="card-subtitle mb-2 text-secondary">
+            June 2020 - Present
+        </h6>
+        <div class="card-text mb-0">
+            Research Intern
+        </div>
+    </div>
 </div>
 
-And this is a more sophisticated example, using the JS to include a carousel of images:
+<div class="card mb-4" style="width: 100;">
+    <div class="card-body">
+        <h4 class="card-title mb-2">
+            Department of Mechanical Engineering, BITS Pilani 
+        </h4>
+        <h6 class="card-subtitle mb-2 text-secondary">
+            January 2020 - Present
+        </h6>
+        <div class="card-text mb-0">
+            Academic Research Assistant
+        </div>
+    </div>
+</div>
+
+<div class="card mb-4" style="width: 100;">
+    <div class="card-body">
+        <h4 class="card-title mb-2">
+            Department of Electrical and Electronics Engineering, BITS Pilani 
+        </h4>
+        <h6 class="card-subtitle mb-2 text-secondary">
+            January 2019 - December 2019
+        </h6>
+        <div class="card-text mb-0">
+            Academic Research Assistant
+        </div>
+    </div>
+</div>
+
+<div class="card mb-4" style="width: 100;">
+    <div class="card-body">
+        <h4 class="card-title mb-2">
+            UltraTech Cement, Aditya Cement Works, Shambhupura 
+        </h4>
+        <h6 class="card-subtitle mb-2 text-secondary">
+            May 2019 - July 2019
+        </h6>
+        <div class="card-text mb-0">
+            Summer Intern, Mechanical 1 Department
+        </div>
+    </div>
+</div>
+
+<hr />
+
+## Technical Skills
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card mb-2">
+      <div class="card-body">
+        <h5 class="card-title">CAD/CAM Software</h5>
+        <p class="card-text">SolidWorks, Autodesk Fusion 360, AutoCAD, PTC Creo</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card mb-2">
+      <div class="card-body">
+        <h5 class="card-title">Simulation Software</h5>
+        <p class="card-text">SolidWorks Simulations, ANSYS APDL, AutoDesk Flow Design</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card mb-2">
+      <div class="card-body">
+        <h5 class="card-title">Programmimg Skills</h5>
+        <p class="card-text">Python, ROS, MATLAB, C++</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card mb-2">
+      <div class="card-body">
+        <h5 class="card-title">Equipment</h5>
+        <p class="card-text">3D Printers, CNC Laser Cutter</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr />
+
+## Achievements
+
+- Secured Second Place in the Alumni Relations Cell (BITS Pilani) Research Scholarship, 2019 for the paper titled: 3DoBot - A modular robot for wheel and chain coordinate structures
+
+<hr />
 
 <div id="carouselExampleControls" class="carousel slide mb-4" data-ride="carousel">
     <div class="carousel-inner">
@@ -98,32 +148,4 @@ And this is a more sophisticated example, using the JS to include a carousel of 
     </a>
 </div>
 
-The spinner.
-
-<div class="spinner-border text-dark mb-4" role="status">
-  <span class="sr-only">Loading...</span>
-</div>
-
-### Icons
-
-There's a suite of hundreds of Entypo icons included, here's just a few.
-
-<div class="d-flex align-items-center mb-4">
-    <span class="icon grey mr-2">
-        {% include entypo/clock.svg %}
-    </span>
-    <span class="icon grey mr-2">
-        {% include entypo/cycle.svg %}
-    </span>
-    <span class="icon grey mr-2">
-        {% include entypo/chevron-up.svg %}
-    </span>
-    <span class="icon grey mr-2">
-        {% include entypo/new-message.svg %}
-    </span>
-    <span class="icon grey mr-2">
-        {% include entypo/shopping-cart.svg %}
-    </span>
-</div>
-
-
+The images are from various projects done with Electronics and Robotics Club and the Aerodynamics Club.
