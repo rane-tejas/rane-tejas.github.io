@@ -1,0 +1,92 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Tejas Rane
+    - name: Email
+      value: <a href="mailto:turane@wpi.edu">turane@wpi.edu</a>
+    - name: LinkedIn
+      value: <a href="www.linkedin.com/in/tejasrane1113">Tejas Rane</a>
+    - name: Github
+      value: <a href="https://github.com/rane-tejas">rane-tejas</a>
+
+- title: Education
+  type: time_table
+  contents:
+    - title: MS Robotics Engineering
+      institution: Worcester Polytechnic Institute, Worcester MA
+      year: 2023-2025
+      courses: Deep Learning, Reinforcement Learning, Computer Vision
+    - title: BE Mechanical Engineering
+      institution: Birla Institute of Technology and Science (BITS Pilani) Goa, India
+      year: 2017-2021
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Graduate Student Researcher
+      institution: MER Lab, Worcester Polytechnic Institute (WPI), Worcester MA
+      year: 2023 - NOW
+      description:
+        - title: Waste Pile Rearrangement for Robotic Waste Sorting in Recycling Facilities
+          description: Investigating the use of depth images and point clouds to effectively reconfigure waste piles on a conveyor belt using a robotic manipulator in order to uncover occluded and completely covered objects in the waste stream.
+          skills: Robot Operating System (ROS), Point Cloud Library (PCL), Python, C++
+
+    - title: Research Associate
+      institution: Biorobotics Lab, Carnegie Mellon University, Pittsburgh, PA
+      year: 2021 - 2023
+      description:
+        - title: RoboTRAC - Autonomous Vascular Access Robot for trauma care in resource-limited setting
+          contents:
+          - Conducted comparison studies for segmentation of ultrasound images using multiple deep learning frameworks to identify femoral blood vessels, to access them autonomously by performing robotic needle insertions.
+          - Also responsible for developing and maintaining ROS software stack of the robot to perform needle insertion experiments.
+          skills: Deep Learning, Robot Operating System (ROS), PyTorch, Python
+        - title: Pipe Crawler - Autonomous Gas Pipe Repair
+          description: Developed the entire software stack for control, navigation and localization of pipe crawler robot performing inspection and repair in gas pipes.
+          skills: Robot Operating System (ROS)-2, RViz, Python
+
+    - title: Research Intern
+      institution: Stoch Lab, RBCCPS, Indian Institute of Science, Bangalore, India
+      year: 2020 - 2021
+      description:
+        - title: Robust Quadrupedal Locomotion using Reinforcement Learning
+          description: Implemented the Augmented Random Search (ARS) algorithm to train linear feedback policies for quadrupedal locomotion over rough terrain, and implemented on the custom-build quadruped StochLite, resulting in robot climbing over 15 degrees slopes.
+          skills: Reinforcement Learning, PyBullet, Python
+        - title: StochLite - Quadrupedal Walking Robot
+          description: Designed and fabricated a small, light-weight, and easy-to-modify quadruped which can be used for software development and can perform basic dexterous tasks like stair-climbing and traverse rough terrain, using 3D printing and off-the-shelf components.
+          skills: SolidWorks, 3D Printing, CAD
+
+- title: Technical Strengths
+  type: nested_list
+  contents:
+    - title: Programming Skills
+      description: ROS, ROS2, Python, C++, MATLAB, Arduino
+    - title: Libraries and Frameworks
+      description: OpenCV, PyTorch, OpenAI Gym, PyBullet, NumPy, PCL, Scikit-learn
+    - title: Software
+      description: SolidWorks, AutoCAD, Fusion360
+    - title: Other Skills
+      description: 3D Printing, Robotic Systems development, Technical Writing and Presentation, Video Editing, Website Development
+
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items:
+#         - Nobel Prize in Physics
+#         - Matteucci Medal
+#     - year: 2029
+#       items:
+#         - Max Planck Medal
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
